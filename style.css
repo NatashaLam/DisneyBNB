@@ -1,0 +1,111 @@
+#banner {
+	width: 100%;
+}
+
+#logo{
+	width: 30%;
+}
+
+#user{
+	width: 5%;
+}
+
+#hamburger{
+	width: 5%;
+}
+/*
+h1 {
+	letter-spacing: 10px;
+	line-height: 1.5;
+	text-align: center;
+	color: salmon;
+	text-decoration: overline;
+	font-family: serif;
+	font-weight: 700;
+}
+*/
+
+body {
+	font-family: 'Mouse Memoirs', sans-serif;
+	text-align: center;
+}
+
+h1{
+	font-size: 500%;
+}
+
+h2{
+	font-size: 300%;
+}
+p{
+	font-size: 170%;
+	color: black;
+}
+a{
+	text-decoration: none;
+}
+
+.place{
+	height: 330px;
+	width: 330px;
+	object-fit: cover;
+	border-radius: 50px;
+}
+
+li{
+	list-style-type: none;
+	padding: 10px;
+	font-size: 170%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topBanner{
+	display: flex;
+}
+
+#banner{
+	position: relative;
+
+}
+
+#logo, #topBanner > div, h1, #topBanner > h2{
+	position: absolute;
+}
+
+#logo{
+	z-index: 1;
+	transform: translate(5%, 5%);
+}
+
+#topBanner > div {
+	transform: translate(80%, 10%);
+}
+
+h1 {
+	transform: translate(50%, 180%);
+}
+
+#topBanner > h2{
+	transform: translate(200%, 1250%);
+	background-color: honeydew ;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+h2{
+	padding: 30px;
+}
+
+#cards{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#menu{
+	display: flex;
+	justify-content: space-evenly;
+}
